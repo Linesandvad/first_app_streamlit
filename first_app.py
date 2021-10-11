@@ -11,22 +11,22 @@ st.title("Welcome!")
 #st.header("This is a subtitle")
 
 #Subsubtitle
-#st.subheader("This is a subsubtitle")
+st.subheader("This is a subsubtitle")
 
-#st.text("Pure text")
+st.text("Pure text")
 
-#st.markdown("Markdown format")
-#st.markdown("'Hello, *World!* :sunglasses:")
+st.markdown("Markdown format")
+st.markdown("'Hello, *World!* :sunglasses:")
 
-#st.text_input("Your name", key="name")
+st.text_input("Your name", key="name")
 
 # You can access the value at any point with:
-#st.session_state.name
+st.session_state.name
 
-#pets = ["Dog", "Cat", "Mouse"]
+pets = ["Dog", "Cat", "Mouse"]
 
-#pet = st.radio("Pick a pet", pets)
+pet = st.radio("Pick a pet", pets)
 
-#st.text(pet)
+st.text(pet)
 
-#st.line_chart([1,2,3])
+st.line_chart([1,2,3])
