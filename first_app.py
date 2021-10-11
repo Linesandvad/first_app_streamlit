@@ -21,7 +21,7 @@ st.markdown("'Hello, *World!* :sunglasses:")
 st.text_input("Your name", key="name")
 
 # You can access the value at any point with:
-st.session_state.name
+# st.session_state.name
 
 pets = ["Dog", "Cat", "Mouse"]
 
